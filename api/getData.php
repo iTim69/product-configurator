@@ -6,7 +6,7 @@
 $servername = 'localhost';
 $dbname = 'vr360_SensorData';
 $username = 'vr360_user1'; // Update with your DB username
-$password = '3ys2cqzv9B72XJp4'; // Update with your DB password
+$password = '---'; // Update with your DB password
 
 try{
     // Create connection
