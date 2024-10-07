@@ -2,7 +2,9 @@ import { Canvas } from '@react-three/fiber'
 import './App.css'
 import Experience from './components/Experience'
 import Configurator from './components/Configurator'
+import TemperatureDisplay from './components/TemperatureDisplay'
 import { CustomizationProvider } from './contexts/Customization'
+import ReoccurringApiCall from './components/ReoccurringApiCall'
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Experience /> //import experience component
         </Canvas>
         <Configurator />
+        <ReoccurringApiCall />
+        <TemperatureDisplay />
       </div>
     </CustomizationProvider>
 
